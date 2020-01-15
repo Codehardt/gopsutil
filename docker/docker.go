@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/shirou/gopsutil/cpu"
-	"github.com/shirou/gopsutil/internal/common"
+	"github.com/Codehardt/gopsutil/cpu"
+	"github.com/Codehardt/gopsutil/internal/common"
 )
 
 var ErrDockerNotAvailable = errors.New("docker not available")

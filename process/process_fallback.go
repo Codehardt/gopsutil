@@ -1,4 +1,4 @@
-// +build !darwin,!linux,!freebsd,!openbsd,!windows
+// +build !darwin,!linux,!freebsd,!openbsd,!windows,!aix
 
 package process
 
@@ -6,9 +6,9 @@ import (
 	"context"
 	"syscall"
 
-	"github.com/shirou/gopsutil/cpu"
-	"github.com/shirou/gopsutil/internal/common"
-	"github.com/shirou/gopsutil/net"
+	"github.com/Codehardt/gopsutil/cpu"
+	"github.com/Codehardt/gopsutil/internal/common"
+	"github.com/Codehardt/gopsutil/net"
 )
 
 type MemoryMapsStat struct {
